@@ -106,3 +106,35 @@ Mode                 LastWriteTime         Length Name
 d-----        06-04-2025     17:36                item_images
 
 
+---
+
+## 🔧 Technologies Used
+
+- Python 3
+- Django
+- SQLite (default)
+- HTML, CSS (Bootstrap for styling)
+- Optional: Django Messages, Form Validation, Sessions
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/SunnyC0DE/Project-management-system.git
+cd project-management-django
+
+# Create virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate # on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Start the server
+python manage.py runserver
+
